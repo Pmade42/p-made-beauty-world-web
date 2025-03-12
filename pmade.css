@@ -1,0 +1,629 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding:0;
+    margin:0;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:navy;
+}
+
+img{
+    border-radius: 5px;
+}
+
+
+.menu {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding:5px;
+  
+
+    
+}
+
+h1 {
+    font-size: 20px;
+    
+}
+
+h3{
+    font-size: 15px;
+}
+
+h4{
+    font-size: 13px;
+    
+}
+
+p{
+    font-size: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: navy;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+
+}
+.btn:hover{
+    background-color: rgb(31, 31, 170);
+}
+
+#logo {
+    margin-left: 100px;
+}
+
+
+#logo img{
+  width: 50px;
+  height:50px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    width:100%;
+    margin-right: 100px;
+    justify-content: end;
+
+
+}
+
+.menu ul li {
+    font-size: 20px;
+    margin-left: 40px;
+}
+.menu ul li a{
+    text-decoration: none;
+  color: navy;
+}
+.menu ul li img{
+   width: 50px;
+   height: 30px;
+}
+
+
+.hero-section{
+    height: 500px;
+
+
+}
+
+.hero-section img{
+   width: 100%;
+   height:100%;
+}
+
+
+.hero-text{
+    position:absolute;
+    background-color:rgba(56, 56, 56, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+    top: 20%;
+    left:2%
+    
+
+}
+
+#hero-text-second{
+   left:50%;
+    top:350px;
+    padding:5px;
+    background-color:navy;
+}
+
+
+
+#hero-text-second h3{
+    color:white;
+}
+
+
+.hero-text h3{
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.hero-text h4{
+    margin-left: 20px;
+}
+
+.hero-text p{
+    margin-left: 30px;
+}
+#p2 {
+    margin-left:50px;
+}
+
+
+/*--------------best seller section-----------*/
+.best-seller-section {
+    background-color: rgb(238,237,237);
+    height:2800px;
+    padding:   15px;
+}
+
+
+
+
+.best-seller-section h1{
+    padding-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+
+.best-seller-product-container{
+    height: 2570px;
+  
+}
+
+
+.best-seller-product {
+    border-radius: 5px;
+    width: 100%;
+    height:600px;
+    margin-top: 50px;
+    box-shadow: 0px 2px 20px 0px;
+
+   
+}
+
+.best-seller-product  a {
+   text-decoration: none;
+   
+}
+
+.best-seller-product img {
+    height:85%;
+    width:100%;
+}
+
+.best-seller-product h4 {
+    margin-left: 25px;
+    font-size:20px;
+    margin-top: 10px;
+   
+}
+
+.best-seller-product p {
+    margin-left: 25px;
+    font-size:15px;
+    
+}
+
+#best-seller-section-btn {
+    width:30%;
+    margin-left: 35%;
+    margin-top: 20px;
+    
+}
+
+/*----why choose us section----------*/
+.why-choose-us-section {
+    height: 1500px;
+    background-color:rgb(248, 250, 250);
+    padding: 20px;
+
+}
+
+
+.why-choose-us-image {
+    width: 100%;
+    margin-top: 50px;
+}
+.why-choose-us-image img{
+   height: 100%;
+   width:100%;
+
+}
+.why-choose-us-text{
+   height: 100%;
+   margin-top: 50px;
+   box-shadow: 0px 2px 20px 0px;
+   border-radius:5px;
+
+}
+
+.why-choose-us-text ul{
+    margin-top:10px;
+   color: navy;
+   list-style: none;
+   padding:20px;
+ }
+
+.why-choose-us-text li{
+   font-size: 25px;
+   color: navy;
+   margin-bottom: 20px;
+   box-shadow: 1px 1px 1px 1px;
+   border-radius: 10px;
+   padding:5px;
+}
+
+
+.why-choose-us-text a{
+    text-decoration: none;
+    color:navy;
+}
+.why-choose-us-section button{
+    width:50%;
+    margin-top: 40px;
+    margin-left:   120px;
+}
+
+
+
+/*-------testimonial section-----------------*/   
+
+ .testimonial-section{
+    background-color: white;
+    height: 650px;
+    padding: 50px;
+ }
+
+ .testimonial-section h1{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+ }
+
+.testimonial {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.testimonial p{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+.testimonial-image{
+    height: 100px;
+    width:250px;
+
+}
+
+.testimonial img{
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+}
+
+
+#testimonial-section-btn {
+    margin-left:120px;
+    width:40%;
+    margin-top: 40px;
+}
+
+/*-------------------------join us section-----------------*/
+
+.join-us-section{
+    height: 350px;
+    background-color:navy;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+
+.join-us-section  h1{
+    margin-left:   80px;
+    color:white;
+    margin-top: 15px;
+}
+.join-us-section  p {
+    margin-left:50px;
+    color:white;
+    margin-top: 15px;
+}
+
+form input {
+    width:70%;
+    height: 30px;
+    margin-top:20px;
+    border-radius:10px;
+    margin-left:70px;
+    border: none;
+    padding:10px;
+    color:navy;
+}
+
+::placeholder{
+    color:navy;
+    font-size: 15px;
+
+    
+}
+
+input:focus::-webkit-input-placeholder{
+    color:transparent;
+}
+
+#line{
+    background-color:white;
+    width:100;
+    height:0.5px;
+    margin-top: 25px;
+}
+
+#follow-us {
+    margin-left: 150px;
+    margin-top: 30px;
+    color:white;
+}
+
+.social-media-icons{
+    display: flex;
+    padding-left:40px
+  
+}
+
+.icons {
+    margin-top: 40px;
+    width:50px;
+    display:flex;
+    background-color: blueviolet;
+    margin-left: 20px;
+
+}
+.icons p{
+    margin-left:0px;
+
+}
+
+.icons img{
+    width: 50px;
+    height:50px;
+
+}
+
+#footer-section {
+    height: 50px;
+    background-color: white;
+}
+
+@media (min-width:576px){
+
+    h1 {
+        font-size: 45px;
+        
+    }
+    
+    h3{
+        font-size: 35px;
+    }
+    
+    h4{
+        font-size: 25px;
+        
+    }
+    
+    p{
+        font-size: 20px;
+    }
+
+    .hero-section{
+        height: 900px;
+        position:relative;
+    }
+
+    .hero-section img{
+        width: 100%;
+        height:100%
+     }
+
+     .hero-text{
+        position:absolute;
+        left:2%;
+        bottom:60%;
+        border-radius: 5px;
+        padding: 15px;
+        height:max-content
+        
+    }
+
+    #hero-text-second{
+        left:50%;
+         top:60%;
+         padding:5px;
+         height:max-content
+     }
+
+     .best-seller-section {
+        background-color: rgb(238,237,237);
+        height: 850px;
+    }
+    
+    
+    #best-seller-section-btn {
+        width:30%;
+        margin-left: 37%;
+        margin-top:10px
+        
+    }
+    
+    .best-seller-section h1{
+        padding-top: 20px;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        font-size:50px;
+    }
+    
+    
+    .best-seller-product-container{
+        display:flex;
+        justify-content:space-around;
+        height: 600px;
+    }
+
+    .best-seller-product {
+        border-radius: 5px;
+        width: 23%;
+        height:500px;
+        margin-top: 50px;
+        box-shadow: 0px 2px 20px 0px;  
+    }
+
+    .best-seller-product img {
+        height:80%;
+        width:100%;
+    }
+
+/*----------why choose us section -------------*/
+
+.why-choose-us-section {
+    height: 1000px;
+    background-color:rgb(248, 250, 250); 
+    padding: 20px;
+}
+
+#why-choose-us-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.why-choose-us-image {
+    width: 48%;
+    height:800px;
+    box-shadow: 0px 2px 20px 0px;
+    border-radius: 5px;
+}
+
+.why-choose-us-text{
+    width:45%;
+   height:800px;
+   margin-top: 50px;
+   box-shadow: 0px 2px 20px 0px;
+   border-radius:5px;
+}
+
+.why-choose-us-text li{
+    font-size: 35px;
+    color: navy;
+    margin-bottom: 20px;
+    box-shadow: 0.5px  0.5px 0.5px 0.5px;
+    border-radius: 10px;
+    padding:5px;
+ }
+
+ .why-choose-us-section button{
+    width:50%;
+    margin-top: 40px;
+    margin-left:350px;
+}
+
+/*--------testimonial section---------*/
+
+.testimonial-section h1{
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size:35px;
+ }
+.testimonial p{
+    margin-top: 30PX;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.testimonial-image{
+    height: 100px;
+    width:100px;
+    margin-left: 100px;
+}
+
+
+#testimonial-section-btn {
+    margin-left:35%;
+    font-size: 20px;
+    width:30%;
+}
+
+/*-----join us secton------*/
+
+.join-us-section{
+    height: 450px;
+    background-color:navy;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+
+.join-us-section  h1{
+    margin-left:350px;
+    color:white;
+    margin-top: 15px;
+}
+.join-us-section  p {
+    margin-left:330px;
+    color:white;
+    margin-top: 15px;
+}
+
+form input {
+    width:40%;
+    height: 50px;
+    margin-top:20px;
+    border-radius:10px;
+    margin-left:400px;
+    border: none;
+    padding:10px;
+    color:navy;
+}
+
+::placeholder{
+    color:navy;
+    font-size: 20px;
+
+    
+}
+
+input:focus::-webkit-input-placeholder{
+    color:transparent;
+}
+
+#line{
+    background-color:white;
+    width:100;
+    height:1px;
+    margin-top: 25px;
+}
+
+#follow-us {
+    margin-left: 500px;
+    margin-top: 30px;
+    color:white;
+}
+
+.social-media-icons{
+    display: flex;
+    padding-left: 430px;
+  
+}
+
+.icons {
+    margin-top: 40px;
+    width:50px;
+    display:flex;
+    background-color: blueviolet;
+    margin-left: 20px;
+
+}
+}
